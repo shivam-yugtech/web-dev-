@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector */
+        *{
+            background-color: black;
+        }
+        div{
+            color:red
+        }
+        p{
+            color:blueviolet
+        }
+        h1{
+            color:brown
+        }
+        .textcolor{
+            color:goldenrod
+        }
+        .largetext{
+            font-size: 25px;
+        }
+        /* .textcolor.largetext{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        } */
+        #unique{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h3, a, h4{
+            color:lightgreen
+        }
+        a{
+            color:lightgreen;
+            font-size: 30px;
+        }
+        /* h4{
+            color:lightgreen
+        } */
+
+         /* descendent selector */
+         div p span{
+            color:greenyellow
+         }
+        /* children selector  */
+        div>p>span{
+            color:blue
+        }
+        /* Attribute selector */
+        a[href="http://nados.io"]{
+            color:lightcoral
+        }
+    </style>
+</head>
+<body>
+    <!-- Element Selector -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde vitae culpa, amet tempora sint rem doloremque obcaecati perspiciatis? Aut voluptate quas culpa numquam sed harum, in impedit porro laborum praesentium?
+    </p>
+    <div>
+        <h1>First heading</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem provident corporis recusandae quos et a nulla est facilis! Aspernatur excepturi officia saepe sapiente temporibus deserunt rem accusantium, animi voluptates consequatur.
+        </p>
+    </div>
+
+    <!-- class selector -->
+     <h1>class Selector</h1>
+     <p class="textcolor largetext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, quidem illum placeat ipsa praesentium esse, vel aspernatur exercitationem asperiores provident alias maxime dignissimos sit quo possimus tempora, a accusamus officiis. </p>
+     <p class="largetext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt at doloremque maxime deleniti in ut neque quo repellendus laudantium ipsa minus, voluptate, facere dolores? Est, eum esse. Reprehenderit, aliquid eligendi.</p>
+     <p class="textcolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, aut. A minus voluptate, neque eos laudantium nostrum sapiente quam excepturi consequatur, nihil, provident libero! Corrupti ducimus a quisquam esse error?</p>
+
+     <!-- id selector -->
+     <h1>id Selector</h1>
+     <p class="textcolor largetext" id="unique">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, quidem illum placeat ipsa praesentium esse, vel aspernatur exercitationem asperiores provident alias maxime dignissimos sit quo possimus tempora, a accusamus officiis. </p>
+     <p class="largetext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt at doloremque maxime deleniti in ut neque quo repellendus laudantium ipsa minus, voluptate, facere dolores? Est, eum esse. Reprehenderit, aliquid eligendi.</p>
+     <p class="textcolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, aut. A minus voluptate, neque eos laudantium nostrum sapiente quam excepturi consequatur, nihil, provident libero! Corrupti ducimus a quisquam esse error?</p>
+
+     <!-- Grouping selector -->
+
+     <h4>I am h4</h4>
+
+     <a href="https://youtube.com" target="_blank">youtube</a>
+
+     <h3>I am h3</h3>
+
+     <!-- Combinator selector -->
+        <!-- descendant selector -->
+
+    <div>
+        <p>
+            <span>I am a direct chid</span>
+        </p>
+    </div>
+
+    <div>
+        <span>
+            <p>
+                <span>I am an indirect chid</span>
+            </p>
+        </span>
+    </div>
+
+    <!-- Attribute selector -->
+     <a href="http://nados.io" target="_blank">Nados</a>
+     <a href="http://google.in">Google</a>
+     <a href="http://netflix.com" target="_blank">Netflix</a>   
+</body>
+</html>

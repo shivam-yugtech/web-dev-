@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+TO comment a line we can use ( <!--...--> ) or ctrl + /
+<html lang='en'>
+<head>
+	<meta(whis is tags in html) charset(attributes in htm)
+<title>.....</title>
+</head>
+<body>
+<h1>(heading)....</h1>
+we can make upto <h6></h6>heading.
+<p>(paragraph)..</p>
+we can use (lorem34) to write 34 lines in a para which would be a dumy text 
+TO bold lines in para we can use <strong>..</strong>tag
+to emphasis a line we use <em>..</em>
+TO print in a new line we can use <br> 
+TO print a horizontal line use   <hr>
+</body>
+</html>
+
+*  by ctrl + enter you can directly jump to new line
+
+
+[0-
