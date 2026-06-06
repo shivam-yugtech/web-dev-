@@ -19,5 +19,4 @@ TO print a horizontal line use   <hr>
 
 *  by ctrl + enter you can directly jump to new line
 
-
-[0-
+By emmiting you can write quickly -->  ul>li*3 , div>h3>p*3

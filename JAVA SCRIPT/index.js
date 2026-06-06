@@ -86,13 +86,13 @@ for(var i=0; i < num;i++){
     }
 }
 
-// const keyword -> redeclaration and re initialization both are not allowed
-const a = 2;
-console.log(a);
-        //na hi redeclaration na initialization
-//consr a=5;
-a=4;    //TypeError: Assignment to constant variable.
-console.log("hey");
+// // const keyword -> redeclaration and re initialization both are not allowed
+// const a = 2;
+// console.log(a);
+//         //na hi redeclaration na initialization
+// //const a=5;
+// a=4;    //TypeError: Assignment to constant variable.
+// console.log("hey");
 
 
 
