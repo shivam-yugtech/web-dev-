@@ -1,0 +1,38 @@
+li{
+    list-style: none;
+}
+
+.name>ul{
+    display: flex;
+}
+li>img{
+    heigth: 3vh;
+    width: 3vw;;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.bell>ul{
+    display: flex;
+}
+.bell li{
+    padding: 10px;
+}
+.search{
+    display: flex;
+}
+.sidebar{
+    flex-direction: row ;
+}
+
+div>img{
+    height: 25vh;
+    width: 22vw;
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
