@@ -60,3 +60,21 @@ console.log("line 59\n" + sayHi);
 sayHi();
 // abcd(); //error abcd is not defined 
 
+
+//  3. IIFE -> Imediately invoke function expression
+
+function add(a,b){
+    return a+b;
+}
+// let a= add(2,3);
+// console.log(a);
+
+let additionIIFE = (function add(a,b){
+    return a+b;
+   // console.log(a+b);
+})(20,30);
+
+console.log(additionIIFE);
+// console.log(additionIIFE(20,30));
+
+
