@@ -1,7 +1,8 @@
 // Array -> is a collections of elements 
 
 let cars = ['BMW','AUDI','MG',1,2,3,true];
-// In JS you can store different values of different types in an Array
+// In JS you can store different values of different 
+// types in an Array
 console.log(cars);
 
 // accesing the elements in Array
@@ -18,7 +19,8 @@ console.log(cars);
 
 //Methods of an array
 
-// 1) pop method -> this method removes the element from the last of array
+// 1) pop method -> this method removes the
+//                  element from the last of array
 
 cars.pop();
 console.log("after popping the element\n"+cars);
@@ -41,13 +43,14 @@ console.log(cars);
 console.log(cars.length);
 
 // 2d Array
-
+["a","b","c"]   //array of strings
+[1,2,3]     //array of numbers
 let array2d = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
-];
-console.log(array2d);
-console.table(array2d);
+];   // array of arrays
+console.log(array2d);   //prints 2d array
+console.table(array2d); //prints 2d array in the form of a table 
 console.log(array2d[1][2]);
 

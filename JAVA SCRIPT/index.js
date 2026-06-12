@@ -23,7 +23,7 @@ a= true;
 
 a= null;
 // console.log(a);
-// console.log(typeof a);   //bug in JS -> it should return null but it returns object
+// console.log(typeof a);  //bug in JS -> it should return null but it returns object
 
 //Number
 var num = 10;
@@ -88,7 +88,8 @@ var num = 10;
 // }
 
 // 2nd problem with var keyword
-// var keyword is function scoped in case of function else it is global scope 
+// var keyword is function scoped in case of function 
+//     else it is global scope 
 // let keyword is block scoped
 
 let j= 20;
