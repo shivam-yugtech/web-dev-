@@ -9,7 +9,7 @@ console.log(cars);
 console.log(cars[0]);
 console.log(cars[3]);
 
-// replacing elements in Array
+// replacing elements in Array 
 cars[3] = 'Mahindra';
 console.log(cars[3]);
 
@@ -46,11 +46,19 @@ console.log(cars.length);
 ["a","b","c"]   //array of strings
 [1,2,3]     //array of numbers
 let array2d = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
+    ["BMW", 2, null,45],
+    [4, true, 6],
+    [7, "8", 9],
+    [7, "8", 9]
 ];   // array of arrays
+
+// contigous allocation of memory
+
 console.log(array2d);   //prints 2d array
 console.table(array2d); //prints 2d array in the form of a table 
-console.log(array2d[1][2]);
+console.log(array2d[1][2]); // access element
+console.log(array2d[1][3])  //undefined
+console.log(array2d.length);    //-> 4 numner of rows in 2d array
+console.log(array2d[1].length); //-> 3 number of colunms in a 2d array
+
 
