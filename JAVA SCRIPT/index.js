@@ -105,7 +105,7 @@ for( var i=0; i < num;i++){
 }
 console.log("outer "+j);
 console.log("value of i is "+ i);
- console.log(hello);    // error dega hello is not defined
+console.log(hello);    // error dega hello is not defined
  
 
 // const keyword -> redeclaration and re initialization both are not allowed
