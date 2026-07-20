@@ -25,4 +25,5 @@ By emmiting you can write quickly -->  ul>li*3 , div>h3>p*3
 cd -> change directory
 cd .. -> jis folder me h usse bahar ane ke liye ek step up ane ke liye 
 ls -> jis folder me h usme kitne files or folder h ye dekhne ke liye 
+" mkdir folder_Name " -> command to make folder 
 " echo. > file_name.ext (strings.js) " -> this command is use to make new file 
