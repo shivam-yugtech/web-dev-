@@ -1,7 +1,6 @@
 const puppeteer = require("puppeteer");
+const {email,password} = require("./secrets");
 
-let email = "choudhary2002shivam@gamil.com";
-let password = "shivamK@456";
 let cTab;
 let broswerOpenPromises = puppeteer.launch({
     headless: false,
