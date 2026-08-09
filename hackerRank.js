@@ -173,7 +173,24 @@ browserOpenPromise
     .then(function () {
 
         console.log("Algorithm page is open");
-
+        let allQuesPromise = cTab.waitForSelector('a[data-analytics="ChallengeListChallengeName"]');
+        return allQuesPromise;
+    })
+    .then(function(){
+        function getAllQueslinks(){
+            let allElemArr = document.querySelectorAll('a[data-analytics="ChallengeListChallengeName"]');
+            let linkArr = [];
+            for(let i=0;i<allElemArr.length;i++){
+                linkArr.push(allElemArr[i].getAttribute("href"));
+            }
+            return linkArr;
+        }
+        let linkArrPromise = cTab.evaluate(getAllQueslinks);
+        return linkArrPromise;
+    })
+    .then(function(linkArr){
+        console.log("link to all ques recived");
+        console.log(linkArr);
     })
 
     .catch(function (err) {
