@@ -1,0 +1,2 @@
+Callback hell is a slang term for a coding pattern in JavaScript and other single-threaded languages 
+where multiple asynchronous functions are nested inside each other.
